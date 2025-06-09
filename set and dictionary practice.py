@@ -1,29 +1,12 @@
-print("PROBLEM 1")
-# WAP to create a dictionary of Hindi words with values as their english translation.provide user with an optin to look it up!
+# create an empty dictionary.allow 4 friends to enter their favourite language as value and use key as their names. assume the names are unique.
+name_lang = {}
+name_lang.update({input("enter your name : ") : input("enter your favourite language : ")} )
 
-words = {"madad" : "help" ,"billi" : "cat" ,"kutta" : "dog"  , "kursi" : "chair"}
-word = input("Enter the word you want meaning of : ")
-print(words[word])
+name_lang.update({input("enter your name : ") : input("enter your favourite language : ")} )
+
+name_lang.update({input("enter your name : ") : input("enter your favourite language : ")} )
+
+print(name_lang)  # agr 2 namm same nikala gaye to baad vali language ko mana jayega 
 
 
-print("PROBLEM 2")
-#WAP to input 8 numbers from the user and display all unique numbers (once)
-set = set()
-
-nums1 =int(input("Enter  random numbers : "))
-nums2 =int(input("Enter  random numbers : "))
-nums3 =int(input("Enter  random numbers : "))
-nums4 =int(input("Enter  random numbers : "))
-nums5 =int(input("Enter  random numbers : "))
-nums6 =int(input("Enter  random numbers : "))
-nums7 =int(input("Enter random numbers : "))
-nums8 =int(input("Enter  random numbers : "))
-set.add(nums1)
-set.add(nums2)
-set.add(nums3)
-set.add(nums4)
-set.add(nums5)
-set.add(nums6)
-set.add(nums7)
-set.add(nums8)
-print("your unique values are : ",set)
+# aur agar 2 friends ki language same hai to koi fark nhi padega sb kuch normal hi rahega
